@@ -132,10 +132,12 @@ window.PROJECTS = [
     points: [
       "WebGL con shader propio, GSAP ScrollTrigger y scroll suave con Lenis.",
       "Formularios validados, comparador y calculadora financiera.",
-      "Cifra: gráficas SVG sin librerías, estado en la URL y carga de CSV."
+      "Cifra: gráficas SVG sin librerías, estado en la URL y carga de CSV.",
+      "Desplegado en Vercel."
     ],
     stack: ["Next.js", "Three.js", "GSAP", "Tailwind"],
-    logos: ["nextdotjs", "react", "typescript", "tailwindcss"]
+    logos: ["nextdotjs", "react", "typescript", "tailwindcss", "vercel"],
+    live: "https://portafolio-demos-psi.vercel.app"
   },
   {
     slug: "ivonny-swim",
