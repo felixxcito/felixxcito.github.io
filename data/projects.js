@@ -144,10 +144,10 @@ window.PROJECTS = [
     repo: "ivonny-swim",
     kind: "personal",
     title: "Ivonny Swim",
-    course: "Cliente real",
-    tagline: "Tienda web de trajes de baño con panel propio para su dueña.",
+    course: "Proyecto personal",
+    tagline: "Tienda web de trajes de baño con panel de administración propio.",
     description:
-      "Tienda en producción con catálogo público y un panel desde el que la dueña administra productos y fotos desde el teléfono, con desbloqueo biométrico por Face ID.",
+      "Tienda con catálogo público y un panel desde el que se administran productos y fotos desde el teléfono, con desbloqueo biométrico por Face ID.",
     points: [
       "Catálogo editable sin tocar código, con base de datos y fotos en Supabase.",
       "Políticas de seguridad por fila: cualquiera lee, solo quien inicia sesión escribe.",
