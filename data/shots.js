@@ -21,6 +21,36 @@ window.SHOTS={
    "caption": "Diagrama de clases del dominio (modelo de transcripción y tokenizador)"
   }
  ],
+ "finanzas-pareja": [
+  {
+   "file": "01-inicio.jpg",
+   "caption": "Panel de inicio: ingresos, gastos, ahorro, deuda, tasas de Venezuela y proyección de fin de mes (datos de demostración)"
+  },
+  {
+   "file": "07-nombres-editables.jpg",
+   "caption": "Los nombres de la pareja son editables: aquí renombrados a Ana y Luis, y se reflejan en todo el panel"
+  },
+  {
+   "file": "02-gastos.jpg",
+   "caption": "Registro de gastos con persona, bolsillo y categoría"
+  },
+  {
+   "file": "03-ingresos.jpg",
+   "caption": "Ingresos fijos por persona y su estimado mensual"
+  },
+  {
+   "file": "04-deudas.jpg",
+   "caption": "Deudas y compras en cuotas estilo Cashea con progreso de pago"
+  },
+  {
+   "file": "05-ajustes-nombres.jpg",
+   "caption": "Ajustes: nombres, ingresos fijos, meta de ahorro y categorías"
+  },
+  {
+   "file": "06-movil.jpg",
+   "caption": "Versión móvil del panel"
+  }
+ ],
  "ivonny-swim": [
   {
    "file": "01-portada.jpg",

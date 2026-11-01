@@ -176,20 +176,20 @@ window.PROJECTS = [
   },
   {
     slug: "finanzas-pareja",
-    repo: null,
-    private: true,
+    repo: "finanzas-pareja",
     kind: "personal",
     title: "Finanzas en pareja",
     course: "Proyecto personal",
-    tagline: "Panel privado de gastos, ingresos, deudas, inversión y ahorro, con tasas de Venezuela en tiempo real.",
+    tagline: "Panel de gastos, ingresos, deudas, inversión y ahorro, con tasas de Venezuela en tiempo real.",
     description:
-      "Aplicación de uso real y repositorio privado porque maneja datos financieros personales. Funciona desde el teléfono, guarda todo en una base SQLite remota y adjunta fotos de facturas.",
+      "Aplicación que uso en la vida real, publicada con datos de demostración. Funciona desde el teléfono, guarda todo en una base SQLite remota y los nombres de la pareja son editables desde Ajustes.",
     points: [
-      "Bolsillos, deudas con compras en cuotas, inversión y metas de ahorro.",
+      "Bolsillos, deudas con compras en cuotas estilo Cashea, inversión y metas de ahorro.",
       "Tasas de cambio en vivo y conversión entre USD, USDT y bolívares.",
-      "Desplegado en Vercel con base de datos Turso."
+      "Nombres editables: renombrar a la pareja actualiza todo el panel.",
+      "Fotos de facturas adjuntas y acceso con contraseña compartida."
     ],
-    stack: ["Node.js", "SQLite", "Vercel"],
+    stack: ["Node.js", "libSQL", "Vercel"],
     logos: ["nodedotjs", "sqlite", "vercel"]
   }
 ];
