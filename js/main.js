@@ -87,7 +87,7 @@
   }
   function card(p) {
     var shots = shotsOf(p);
-    var c = el("article", { class: "card reveal" + (p.featured ? " is-featured" : ""), "data-kind": p.kind });
+    var c = el("article", { class: "card reveal" + (p.featured ? " is-featured" : "") + (p.wide ? " is-wide" : ""), "data-kind": p.kind });
     var media;
     if (shots.length) {
       media = el("button", { class: "card-media", type: "button", "aria-label": "Ver capturas de " + p.title, onclick: function () { openModal(p.slug); } });

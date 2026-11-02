@@ -2,6 +2,26 @@
 window.OWNER = "felixxcito";
 window.PROJECTS = [
   {
+    slug: "retail-lab",
+    repo: "retail-lab",
+    kind: "personal",
+    wide: true,
+    title: "Retail Lab",
+    course: "Laboratorio guiado en 10 lecciones",
+    tagline: "Una clase de datos para retail: ETL, SQL, NoSQL, vectores, Catman, predicción de demanda, bot de Telegram, QA y Git.",
+    description:
+      "Mini proyecto armado como una clase para mostrar cada skill de mi CV en la práctica. Cada lección trae su código, sus pruebas y una pantalla animada con un bloque final, así lo uso yo, que explica cuándo uso la herramienta y por qué. Todo corre con datos sintéticos: no hay datos ni código de ninguna empresa real.",
+    points: [
+      "Cerca de 100 mil filas sintéticas de POS, Profit, KLK y Odoo simulado, llevadas por un ETL con deduplicación, cuarentena y carga incremental.",
+      "SQL en esquema de estrella, tickets como documentos NoSQL y búsqueda vectorial local, sin APIs de pago.",
+      "Catman con roles de categoría, predicción de demanda con backtest y un bot de Telegram en modo de prueba.",
+      "121 pruebas, 98 % de cobertura, contratos de datos y CI en GitHub Actions."
+    ],
+    stack: ["Python", "pandas", "SQLite", "FastAPI", "JavaScript"],
+    logos: ["python", "sqlite", "fastapi", "git"],
+    live: "https://felixxcito.github.io/retail-lab"
+  },
+  {
     slug: "os-sim-pro",
     repo: "os-sim-pro",
     kind: "uni",
@@ -201,7 +221,7 @@ window.SKILL_GROUPS = [
     icon: "robot",
     blurb: "Mi forma de trabajar: Claude Code como herramienta principal, con revisión y pruebas de mi parte.",
     skills: [
-      { name: "Claude Code", note: "Flujo diario de desarrollo, de la idea al repositorio publicado.", ev: ["os-sim-pro", "proyecto-final-felix-arocha", "portafolio-demos"] },
+      { name: "Claude Code", note: "Flujo diario de desarrollo, de la idea al repositorio publicado.", ev: ["retail-lab", "os-sim-pro", "proyecto-final-felix-arocha"] },
       { name: "Prompts avanzados", note: "Especificaciones claras, subagentes y verificación de resultados.", ev: ["simulador-datastream", "echonotes"] },
       { name: "POO y múltiples lenguajes", note: "Python, TypeScript, Java, Go y Node.js según lo pida el problema.", ev: ["simulador-so-movil", "proyecto-final-felix-arocha", "os-sim-pro"] },
       { name: "Integración de IA en productos", note: "Asistente en el aula virtual y reportes con modelos de NVIDIA.", ev: ["proyecto-final-felix-arocha", "simulador-datastream"] }
@@ -213,21 +233,21 @@ window.SKILL_GROUPS = [
     icon: "database",
     blurb: "Mover, guardar y consultar datos sin perderlos por el camino.",
     skills: [
-      { name: "Conectores ETL", note: "Sincronización de datos empresariales entre sistemas.", ev: [] },
-      { name: "SQL", note: "PostgreSQL, SQLite y migraciones con Prisma.", ev: ["proyecto-final-felix-arocha", "residencial-las-palmas", "finanzas-pareja"] },
-      { name: "NoSQL", note: "MongoDB junto a bases relacionales en un mismo sistema.", ev: ["proyecto-final-felix-arocha"] },
-      { name: "Bases de datos vectoriales", note: "Experiencia en el trabajo; sin repositorio público.", ev: [] }
+      { name: "Conectores ETL", note: "Un conector por origen, normalización, deduplicación y carga incremental.", ev: ["retail-lab"] },
+      { name: "SQL", note: "PostgreSQL, SQLite, esquema en estrella y migraciones con Prisma.", ev: ["retail-lab", "proyecto-final-felix-arocha", "residencial-las-palmas"] },
+      { name: "NoSQL", note: "MongoDB junto a bases relacionales y tickets como documentos.", ev: ["retail-lab", "proyecto-final-felix-arocha"] },
+      { name: "Bases de datos vectoriales", note: "Búsqueda semántica de productos con embeddings locales.", ev: ["retail-lab"] }
     ]
   },
   {
     id: "retail",
     label: "Retail y ERPs",
     icon: "briefcase",
-    blurb: "Experiencia en el trabajo, por eso no hay código público de esta parte.",
+    blurb: "Experiencia del trabajo. El código de la empresa no es público; en retail-lab lo reproduzco con datos simulados.",
     skills: [
-      { name: "Integración con POS", note: "Control y conexión de software de punto de venta.", ev: [] },
-      { name: "ERPs: Odoo, Profit y KLK", note: "Integración directa con sistemas empresariales.", ev: [] },
-      { name: "Catman y predicción", note: "Análisis y predicción de demanda por categoría de producto.", ev: [] }
+      { name: "Integración con POS", note: "Control y conexión de software de punto de venta.", ev: ["retail-lab"] },
+      { name: "ERPs: Odoo, Profit y KLK", note: "Integración directa con sistemas empresariales.", ev: ["retail-lab"] },
+      { name: "Catman y predicción", note: "Roles de categoría, huecos de surtido y predicción de demanda con backtest.", ev: ["retail-lab"] }
     ]
   },
   {
@@ -236,9 +256,9 @@ window.SKILL_GROUPS = [
     icon: "gear-six",
     blurb: "Que las cosas se avisen solas y que lo publicado funcione.",
     skills: [
-      { name: "Telegram bots", note: "Alertas en tiempo real e interacción con sistemas centrales.", ev: [] },
-      { name: "QA y pruebas", note: "Pruebas automáticas con pytest y Vitest, y revisión manual.", ev: ["os-sim-pro", "simulador-datastream"] },
-      { name: "Git y GitHub", note: "Historial ordenado, ramas y repositorios públicos y privados.", ev: ["proyecto-final-felix-arocha", "os-sim-pro", "portafolio-demos"] },
+      { name: "Telegram bots", note: "Alertas en tiempo real e interacción con sistemas centrales.", ev: ["retail-lab"] },
+      { name: "QA y pruebas", note: "Pruebas automáticas con pytest y Vitest, y revisión manual.", ev: ["retail-lab", "os-sim-pro", "simulador-datastream"] },
+      { name: "Git y GitHub", note: "Historial ordenado, ramas y repositorios públicos y privados.", ev: ["retail-lab", "proyecto-final-felix-arocha", "os-sim-pro"] },
       { name: "Docker y despliegue", note: "Contenedores con Compose y publicaciones en Vercel.", ev: ["proyecto-final-felix-arocha", "wordpress-docker-redis", "ivonny-swim"] }
     ]
   }

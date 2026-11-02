@@ -169,6 +169,44 @@ window.SHOTS={
    "caption": "Dashboard del administrador con cobranza, morosidad y gráficas"
   }
  ],
+ "retail-lab": [
+  {
+   "file": "01-inicio.jpg",
+   "caption": "Inicio: el flujo de datos animado, de los orígenes POS y ERP hasta las alertas del bot"
+  },
+  {
+   "file": "02-etl.jpg",
+   "caption": "Lección 2, ETL: el embudo por origen (extraer, normalizar, deduplicar, cuarentena, cargar) con filas antes y después"
+  },
+  {
+   "file": "03-sql.jpg",
+   "caption": "Lección 3, SQL: esquema en estrella con dimensiones, hechos e inventario"
+  },
+  {
+   "file": "04-vectores.jpg",
+   "caption": "Lección 5, vectores: mapa de productos, vecinos más cercanos y búsqueda con errores de tipeo"
+  },
+  {
+   "file": "05-catman.jpg",
+   "caption": "Lección 6, Catman: matriz de participación por categoría y tienda, y rol de cada categoría"
+  },
+  {
+   "file": "06-demanda.jpg",
+   "caption": "Lección 7, demanda: backtest sobre una serie real y comparación de modelos"
+  },
+  {
+   "file": "07-bot.jpg",
+   "caption": "Lección 8, bot de Telegram: alertas de quiebre y comandos, en modo de prueba sin enviar nada"
+  },
+  {
+   "file": "08-qa.jpg",
+   "caption": "Lección 9, QA: resultados reales de pytest, cobertura por archivo y contratos de datos"
+  },
+  {
+   "file": "09-movil-catman.jpg",
+   "caption": "Versión móvil de la lección de Catman"
+  }
+ ],
  "semana10-jwt-fastapi": [
   {
    "file": "01-login-200.jpg",
