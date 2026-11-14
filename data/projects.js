@@ -219,9 +219,9 @@ window.SKILL_GROUPS = [
     id: "ia",
     label: "Desarrollo con IA",
     icon: "robot",
-    blurb: "Mi forma de trabajar: Claude Code como herramienta principal, con revisión y pruebas de mi parte.",
+    blurb: "Mi forma de trabajar: herramientas de IA (Cursor, Claude Code, Codex) con revisión y pruebas rigurosas.",
     skills: [
-      { name: "Claude Code", note: "Flujo diario de desarrollo, de la idea al repositorio publicado.", ev: ["retail-lab", "os-sim-pro", "proyecto-final-felix-arocha"] },
+      { name: "Cursor y Claude Code", note: "Flujo diario de desarrollo, de la idea al repositorio publicado.", ev: ["retail-lab", "os-sim-pro", "proyecto-final-felix-arocha"] },
       { name: "Prompts avanzados", note: "Especificaciones claras, subagentes y verificación de resultados.", ev: ["simulador-datastream", "echonotes"] },
       { name: "POO y múltiples lenguajes", note: "Python, TypeScript, Java, Go y Node.js según lo pida el problema.", ev: ["simulador-so-movil", "proyecto-final-felix-arocha", "os-sim-pro"] },
       { name: "Integración de IA en productos", note: "Asistente en el aula virtual y reportes con modelos de NVIDIA.", ev: ["proyecto-final-felix-arocha", "simulador-datastream"] }

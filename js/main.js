@@ -220,7 +220,7 @@
     "/help": function () {
       return "<b>Comandos</b>\n/sobre       quién soy\n/skills      mis skills por área\n/proyectos   lista de proyectos\n/abrir &lt;nombre&gt;   abre un proyecto\n/cv          descarga mi CV\n/contacto    cómo escribirme\n/github      mi GitHub\n/clear       limpia la terminal";
     },
-    "/sobre": function () { return "<b>Felix Arocha</b>. Ingeniero en Computación (2027).\nConstruyo software con IA, datos y automatización.\n3 años de desarrollo asistido por IA, con Claude Code como herramienta principal."; },
+    "/sobre": function () { return "<b>Felix Arocha</b>. Desarrollador de Software | Estudiante de Ingeniería en Computación (2027).\n1 año de experiencia en producción (cadena retail de 25 tiendas).\n2 años desarrollando con herramientas de IA (Cursor, Claude Code, Codex)."; },
     "/skills": function () {
       return groups.map(function (g) { return "<b>" + esc(g.label) + "</b>\n  " + g.skills.map(function (s) { return esc(s.name); }).join(", "); }).join("\n");
     },
